@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bereketi Mining | Unearthing Quality, Building Legacies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="your-logo.png" alt="Bereketi Mining Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="order.html">Place an Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Bereketi Mining</h1>
+    <p>Unearthing Quality, Building Legacies</p>
+  </section>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>To deliver superior quality in mining and quarrying, while upholding sustainability, innovation, and community development.</p>
+  </section>
+
+  <section id="values">
+    <h2>Our Values</h2>
+    <ul>
+      <li>Excellence: We strive for perfection in every operation.</li>
+      <li>Integrity: Honesty and ethics guide all our decisions.</li>
+      <li>Innovation: We constantly evolve to bring innovative solutions to the mining industry.</li>
+      <li>Sustainability: We commit to environmentally conscious mining practices.</li>
+      <li>Community: We prioritize the well-being of the communities we operate in.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Bereketi Mining. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

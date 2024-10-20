@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Place an Order | Bereketi Mining</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="your-logo.png" alt="Bereketi Mining Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="order.html">Place an Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="order">
+    <h1>Place an Order</h1>
+    <form action="submit_order.php" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="product">Product:</label>
+      <select id="product" name="product">
+        <option value="stone-quarrying">Stone Quarrying</option>
+        <option value="aggregate">Aggregate</option>
+        <option value="machinery">Machinery Supply</option>
+      </select><br><br>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" required><br><br>
+
+      <input type="submit" value="Submit Order">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Bereketi Mining. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

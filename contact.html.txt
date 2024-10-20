@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Us | Bereketi Mining</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="your-logo.png" alt="Bereketi Mining Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="order.html">Place an Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <p>Email: info@bereketimining.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Bereketi Mining. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
